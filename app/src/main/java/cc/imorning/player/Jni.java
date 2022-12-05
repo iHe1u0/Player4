@@ -9,15 +9,6 @@ public class Jni {
     static {
         final String[] libs = {
                 "player",
-                "avfilter-7",
-                "avformat-58",
-                "avcodec-58",
-                "swscale-5",
-                "swresample-3",
-                "postproc-55",
-                "avutil-56",
-                "avdevice-58"
-
         };
         for (String lib : libs) {
             try {
